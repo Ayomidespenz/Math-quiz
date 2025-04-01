@@ -115,7 +115,7 @@ function loadQuestion(questionIndex) {
 function startTimer() {
     let timeLeft = 10;
     timerDisplay.textContent = `Time: ${timeLeft}s`;
-    timer = setTimeout(() => {
+    timer = setInterval(() => {
         timeLeft--;
         timerDisplay.textContent = `Time: ${timeLeft}s`;
         if (timeLeft <= 0) {
