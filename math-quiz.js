@@ -156,7 +156,7 @@ function loadNextQuestion() {
     if (currentQuestionIndex == totalQuestions) {
         container.style.display = "none";
         resultCont.style.display = "";
-        resultCont.textContent = `Your score: ${score}`.toUpperCase();
+        resultCont.textContent = "Your score:" +  score; 
         restartButton.style.display = "block";
         return;
     }
