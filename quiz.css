@@ -74,6 +74,7 @@ body{
     width: 15%;
     border-radius: 25px;
     text-align: center;
+    /* border: 2px solid red; */
 }
 .restart-btn{
     background: rgba(255, 255, 255, 0.5);
@@ -85,4 +86,27 @@ body{
     cursor: pointer;
     float: right;
     margin: 10px;
+}
+
+@media screen and (max-width:900px) {
+    .container {
+        width: 100%;
+    }
+    .option{
+        width: 100%;
+    }
+    #timer{
+        width: 100%;
+        text-align: center;
+        display: block !important;
+        /* border: 2px solid red; */
+        margin-top: 120px;
+    }
+    .restart-btn{
+        width: 100%;
+    }
+    .next-btn{
+        display: block;
+        width: 100%;
+    }
 }
