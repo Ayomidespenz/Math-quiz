@@ -26,8 +26,8 @@ body{
 .question{
     padding: 20px;
     font-size: 20px;
-    background-color:#08038C ;
-    color: white;
+    background-color:#6cf; ;
+    color: black;
 }
 .option{
     width: 480px;
